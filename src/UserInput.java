@@ -12,12 +12,11 @@ public class UserInput {
     }
 
     /**
-     * Reads an integer from the scanner, ignoring non-integer input.
-     * After successful read, consumes the rest of the line to prevent buffer issues.
+     * Reads an integer user inout from the scanner.
      *
      * @param scanner the Scanner to read from
      * @param errorMessage message to display on invalid input
-     * @return the parsed integer
+     * @return integer number
      */
     public static int readIntOnly (Scanner scanner, String errorMessage) {
         while (!scanner.hasNextInt()) {
@@ -30,7 +29,7 @@ public class UserInput {
     }
 
     /**
-     * Reads a line of space-separated integers from the user.
+     * Reads a line of integers separated by spaces from the user.
      * Repeats until valid input is provided.
      *
      * @param scanner the Scanner to read from
