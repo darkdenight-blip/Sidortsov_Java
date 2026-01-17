@@ -9,6 +9,5 @@ A simple interactive console application that demonstrates basic input validatio
 
 ## How to run
 ```bash
-javac -d out src/*.java
-java -cp out Main
+Run `Main.java` in your IDE
 ```
